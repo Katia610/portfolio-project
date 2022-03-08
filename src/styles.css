@@ -4,6 +4,28 @@
 h1 {
   font-family: "Playfair Display", serif;
 }
+h2,
 p {
   font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+.hero {
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  color: #ff007b;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: solid 2px #f76b8a;
 }
