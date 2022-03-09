@@ -26,14 +26,74 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>Document</title>
+    <title>Homepage - Catherine Razafindralambo</title>
   </head>
   <body>
     <div class="hero">
       <p>👋 Hello, I am</p>
       <h1>Catherine Razafindralambo</h1>
       <h2>Front-end developer based in London, UK</h2>
-      <button><strong>Contact me</strong></button>
+      <button class="hero-button"><strong>Contact me</strong></button>
+    </div>
+    <p class="project-description-header">
+      See some of the projects I built recently 👇
+    </p>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col d-none d-lg-block">
+          <img
+            src="/images/yogurt.png"
+            class="img-fluid rounded homepage-image"
+            alt="yogurt project page"
+          />
+        </div>
+        <div class="col project-description">
+          <h2>Yogurt project</h2>
+          <p class="text-muted">
+            Landing page about Greek yogurt <br />
+            Created with HTML, CSS, Vanilla JavaScript
+          </p>
+          <button class="homepage-button">View project</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col project-description">
+          <h2>Weather project</h2>
+          <p class="text-muted">
+            Weather application with 5-day forecast<br />
+            Created with HTML, CSS, JavaScript, live API
+          </p>
+          <button class="homepage-button">View project</button>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img
+            src="/images/weather.png"
+            class="img-fluid rounded homepage-image"
+            alt="weather project page"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col d-none d-lg-block">
+          <img
+            src="/images/dictionary.png"
+            class="img-fluid rounded homepage-image"
+            alt="dictionary project page"
+          />
+        </div>
+        <div class="col project-description">
+          <h2>Dictionary project</h2>
+          <p class="text-muted">
+            Dictionary application<br />
+            Created with HTML, CSS, JavaScript, React
+          </p>
+          <button class="homepage-button">View project</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
