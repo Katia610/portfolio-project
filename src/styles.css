@@ -47,6 +47,7 @@ body {
   padding: 15px 20px;
   border-radius: 4px;
   border: solid 2px var(--branding-color);
+  transition: all 150ms ease-in-out;
 }
 .project-description-header {
   margin: 60px;
@@ -55,9 +56,10 @@ body {
 .homepage-button {
   background: var(--branding-color);
   color: white;
-  padding: 17px 22px;
+  padding: 15px 20px;
   border-radius: 4px;
   border: none;
+  transition: all 150ms ease-in-out;
 }
 .project-description h2 {
   font-family: var(--heading-font-family);
@@ -72,6 +74,38 @@ body {
 }
 .project-description {
   padding: 150px 60px;
+}
+.homepage-link {
+  text-decoration: none;
+  color: white;
+}
+.hero-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.homepage-link:hover {
+  color: var(--branding-color);
+}
+.homepage-button:hover {
+  background: white;
+  border: solid 2px var(--branding-color);
+}
+.hero-link:hover {
+  color: white;
+}
+.hero-button:hover {
+  background: var(--branding-color);
+}
+.project-image {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 20px;
+}
+.weather-app-image {
+  padding-top: 65px;
+}
+.dictionary-app-image {
+  padding-top: 100px;
 }
 @media (max-width: 992px) {
   .hero h1 {
