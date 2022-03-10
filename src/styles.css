@@ -122,9 +122,29 @@ body {
 .about-section p {
   font-size: 20px;
   padding-top: 25px;
+  padding-bottom: 15px;
 }
 .about-text {
-  padding-top: 50px;
+  padding-top: 0px;
+  padding-left: 50px;
+}
+.project-button {
+  background: none;
+  color: var(--branding-color);
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: solid 2px var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+.project-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.project-link:hover {
+  color: white;
+}
+.project-button:hover {
+  background: var(--branding-color);
 }
 @media (max-width: 992px) {
   .hero h1 {
@@ -151,5 +171,18 @@ body {
     text-align: center;
     padding-top: 45px;
     padding-bottom: 15px;
+  }
+  .about-section {
+    padding-top: 75px;
+    padding-bottom: 20px;
+  }
+  .about-text {
+    text-align: center;
+    padding-left: 15px;
+  }
+  .about-text h1 {
+    font-size: 45px;
+    line-height: 60px;
+    padding-top: 20px;
   }
 }
