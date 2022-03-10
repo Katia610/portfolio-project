@@ -109,8 +109,8 @@ body {
 }
 @media (max-width: 992px) {
   .hero h1 {
-    font-size: 48px;
-    line-height: 70px;
+    font-size: 45px;
+    line-height: 65px;
     margin-bottom: 20px;
   }
   .hero p {
@@ -119,13 +119,13 @@ body {
     margin-bottom: 20px;
   }
   .hero {
-    padding: 160px 0px;
+    padding: 125px 0px;
   }
   .project-description-header {
     margin-bottom: 15px;
   }
   .project-description h2 {
-    font-size: 48px;
+    font-size: 45px;
     margin-bottom: 35px;
   }
   .project-description {
