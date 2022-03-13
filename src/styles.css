@@ -133,7 +133,7 @@ h3 {
 }
 .about-text {
   padding-top: 0px;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 .project-button {
   background: none;
@@ -151,6 +151,28 @@ h3 {
 }
 .works-description {
   background: white;
+}
+.works-images {
+  display: block;
+  margin: 0 auto;
+  background: var(--secondary-color);
+}
+.bellydance-image {
+  padding: 35px;
+}
+.weather-image {
+  padding: 35px;
+  height: 463px;
+  width: 508px;
+}
+.work-section {
+  padding: 40px;
+}
+.image-link {
+  transition: all 0.2s ease-in-out;
+}
+.image-link:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 992px) {
   .hero h1 {
