@@ -59,7 +59,7 @@ h3 {
   margin: 60px;
   text-align: center;
 }
-.homepage-button {
+.main-button {
   background: var(--branding-color);
   color: white;
   padding: 15px 20px;
@@ -81,23 +81,23 @@ h3 {
 .project-description {
   padding: 150px 60px;
 }
-.homepage-link {
+.project-link {
   text-decoration: none;
   color: white;
 }
-.link,
+.hero-link,
 .github-link {
   text-decoration: none;
   color: var(--branding-color);
 }
-.homepage-link:hover {
+.project-link:hover {
   color: var(--branding-color);
 }
-.homepage-button:hover {
+.main-button:hover {
   background: white;
   border: solid 2px var(--branding-color);
 }
-.link:hover {
+.hero-link:hover {
   color: white;
 }
 .hero-button:hover {
@@ -110,10 +110,13 @@ h3 {
   margin: 20px;
 }
 .weather-app-image {
-  padding-top: 65px;
+  padding-top: 85px;
+}
+.portfolio-image {
+  border: solid 2px rgb(219, 209, 209);
 }
 .dictionary-app-image {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 .about-section {
   padding-top: 200px;
@@ -181,7 +184,7 @@ h3 {
 .portfolio-image-works {
   border: solid 1px rgb(223, 223, 223);
 }
-@media (max-width: 992px) {
+@media (max-width: 1280px) {
   .hero h1 {
     font-size: 45px;
     line-height: 65px;
@@ -219,5 +222,20 @@ h3 {
     font-size: 45px;
     line-height: 60px;
     padding-top: 20px;
+  }
+  .works-header {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+  .work-description {
+    text-align: center;
+    padding-left: 20px !important;
+  }
+  .work-section {
+    padding: 15px;
+  }
+  .works-button {
+    display: block;
+    margin: 0 auto;
   }
 }
