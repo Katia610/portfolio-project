@@ -56,7 +56,8 @@ h3 {
   transition: all 150ms ease-in-out;
 }
 .project-description-header {
-  margin: 60px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   text-align: center;
 }
 .main-button {
@@ -119,7 +120,7 @@ h3 {
   padding-top: 90px;
 }
 .about-section {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .about-section h1 {
   font-size: 64px;
@@ -153,7 +154,7 @@ h3 {
   font-size: smaller;
 }
 .works-header {
-  padding-top: 200px;
+  padding-top: 90px;
   padding-bottom: 50px;
 }
 .works-description {
@@ -173,7 +174,7 @@ h3 {
   width: 508px;
 }
 .work-section {
-  padding: 40px;
+  padding: 40px 40px 15px 40px;
 }
 .image-link {
   transition: all 0.2s ease-in-out;
@@ -183,6 +184,16 @@ h3 {
 }
 .portfolio-image-works {
   border: solid 1px rgb(223, 223, 223);
+}
+.contact-header {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+.navbar-photo {
+  border-radius: 50%;
+}
+.active {
+  color: var(--branding-color) !important;
 }
 @media (max-width: 1280px) {
   .hero h1 {
@@ -211,7 +222,7 @@ h3 {
     padding-bottom: 15px;
   }
   .about-section {
-    padding-top: 75px;
+    padding-top: 50px;
     padding-bottom: 20px;
   }
   .about-text {
@@ -224,8 +235,12 @@ h3 {
     padding-top: 20px;
   }
   .works-header {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 0px;
+  }
+  .contact-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
   .work-description {
     text-align: center;
@@ -237,5 +252,11 @@ h3 {
   .works-button {
     display: block;
     margin: 0 auto;
+  }
+  .contact-link {
+    font-size: 17px;
+  }
+  .contact-title {
+    font-size: 21px;
   }
 }
