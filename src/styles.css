@@ -45,7 +45,7 @@ h3 {
   background: var(--secondary-color);
   padding: 260px 20px 150px;
 }
-.hero-button {
+.secondary-button {
   display: block;
   margin: 0 auto;
   background: none;
@@ -55,9 +55,8 @@ h3 {
   border: solid 2px var(--branding-color);
   transition: all 100ms ease-in-out;
 }
-.project-description-header {
-  margin-top: 60px;
-  margin-bottom: 40px;
+.homepage-project-introduction {
+  margin: 60px;
   text-align: center;
 }
 .main-button {
@@ -68,57 +67,57 @@ h3 {
   border: none;
   transition: all 100ms ease-in-out;
 }
-.project-description h2 {
+.homepage-project-description h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   line-height: 1.2;
   margin-bottom: 45px;
 }
-.project-description p {
+.homepage-project-description p {
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 45px;
 }
-.project-description {
-  padding: 150px 60px;
+.homepage-project-description {
+  padding: 50px 60px;
 }
-.project-link {
+.primary-link {
   text-decoration: none;
   color: white;
 }
-.hero-link,
+.secondary-link,
 .github-link {
   text-decoration: none;
   color: var(--branding-color);
 }
-.project-link:hover {
+.primary-link:hover {
   color: var(--branding-color);
 }
 .main-button:hover {
   background: white;
   border: solid 2px var(--branding-color);
 }
-.hero-link:hover,
+.secondary-link:hover,
 .footer-button:hover {
   color: white;
 }
-.hero-button:hover {
+.secondary-button:hover {
   background: var(--branding-color);
 }
-.project-image {
+.homepage-project-image {
   background: var(--secondary-color);
   text-align: center;
-  padding: 20px;
-  margin: 20px;
+  padding: 40px;
+  margin: 0px;
 }
-.weather-app-image {
-  padding-top: 85px;
-}
-.portfolio-image {
-  border: solid 2px rgb(219, 209, 209);
+.homepage-portfolio-image {
+  border: solid 2px rgb(216, 214, 214);
 }
 .dictionary-app-image {
-  padding-top: 90px;
+  padding-top: 10px;
+}
+.headshot-photo {
+  padding: 0px;
 }
 .about-section {
   padding-top: 200px;
@@ -140,6 +139,28 @@ h3 {
   padding-top: 0px;
   padding-left: 100px;
 }
+.technology-section {
+  padding-top: 75px;
+}
+.technology-section h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.technology-text {
+  padding-top: 140px;
+  padding-left: 0px;
+}
+.technology-logo {
+  display: block;
+  margin: 0 auto;
+}
+.technology-logo-caption {
+  font-size: 13px;
+}
+.technology-logo-section {
+  padding-left: 55px;
+  padding-top: 25px;
+}
 .project-button {
   background: none;
   color: var(--branding-color);
@@ -153,6 +174,23 @@ h3 {
 }
 .paragraph-footer {
   font-size: smaller;
+}
+.certification-section {
+  padding-top: 75px;
+}
+.certification-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+.certificate-image {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--secondary-color);
+  transition: all 0.1s ease-in-out;
+}
+.certificate-image:hover {
+  transform: scale(1.1);
 }
 .works-header {
   padding-top: 190px;
@@ -178,7 +216,7 @@ h3 {
   padding: 40px 40px 15px 40px;
 }
 .image-link {
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .image-link:hover {
   transform: scale(1.1);
@@ -201,10 +239,10 @@ h3 {
   border-radius: 10px;
   padding-left: 0px;
   padding-right: 0px;
-  margin-top: 50px;
+  margin-top: 90px;
   margin-bottom: 50px;
 }
-.contact-box h4 {
+.contact-box h3 {
   font-size: 48px;
   font-family: var(--heading-font-family);
 }
@@ -236,7 +274,11 @@ h3 {
   color: white;
   background: var(--branding-color);
 }
-@media (max-width: 1280px) {
+.code-info {
+  font-size: smaller;
+}
+
+@media (max-width: 768px) {
   .hero h1 {
     font-size: 45px;
     line-height: 65px;
@@ -248,16 +290,17 @@ h3 {
     margin-bottom: 20px;
   }
   .hero {
-    padding: 175px 0px 80px;
+    padding: 175px 0px 70px;
   }
-  .project-description-header {
-    margin-bottom: 15px;
+  .homepage-project-introduction {
+    margin-top: 45px;
+    margin-bottom: 0px;
   }
-  .project-description h2 {
+  .homepage-project-description h2 {
     font-size: 45px;
     margin-bottom: 35px;
   }
-  .project-description {
+  .homepage-project-description {
     text-align: center;
     padding-top: 45px;
     padding-bottom: 15px;
@@ -306,5 +349,90 @@ h3 {
   }
   .footer-logo {
     margin: 50px 35px;
+  }
+  .certification-section {
+    padding: 45px;
+  }
+  .technology-section {
+    padding-top: 20px;
+  }
+  .technology-text {
+    padding-top: 0px;
+  }
+  .technology-logo-section {
+    padding: 25px;
+  }
+  .certification-caption {
+    margin-top: 20px;
+  }
+  .certification-text {
+    margin-bottom: 0px;
+  }
+  .footer-email-section {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .hero h1 {
+    font-size: 45px;
+    line-height: 65px;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .hero {
+    padding: 175px 0px 70px;
+  }
+  .homepage-project-introduction {
+    margin: 35px;
+  }
+  .homepage-project-description h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  .homepage-project-description p {
+    margin-bottom: 25px;
+  }
+  .homepage-project-description {
+    padding-top: 35px;
+    padding-bottom: 05px;
+  }
+  .primary-link {
+    font-size: smaller;
+  }
+  .contact-box h3 {
+    font-size: 40px;
+  }
+  .homepage-section {
+    margin-bottom: 50px !important;
+  }
+  .weather-app-image {
+    padding-top: 27px;
+  }
+  .homepage-portfolio-image {
+    margin-top: 18px;
+  }
+  .contact-box {
+    margin-top: 60px;
+    margin-bottom: 35px;
+  }
+  .about-text {
+    text-align: center;
+    padding: 25px 40px;
+  }
+  .certification-section {
+    padding-top: 55px;
+  }
+  .technology-section {
+    padding-top: 0px;
+  }
+  .technology-text {
+    padding-top: 80px;
+  }
+  .technology-logo-section {
+    padding: 25px;
   }
 }
