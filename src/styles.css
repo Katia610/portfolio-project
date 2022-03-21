@@ -371,6 +371,9 @@ h3 {
   .footer-email-section {
     margin-top: 20px !important;
   }
+  .footer-email-section {
+    padding-top: 40px;
+  }
 }
 @media (max-width: 1200px) {
   .hero h1 {
@@ -434,5 +437,25 @@ h3 {
   }
   .technology-logo-section {
     padding: 25px;
+  }
+  .works-header {
+    padding-top: 150px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .contact-header {
+    padding-top: 150px;
+    padding-bottom: 30px;
+  }
+  .work-description {
+    text-align: center;
+    padding-left: 20px !important;
+  }
+  .work-section {
+    padding: 0px 15px 15px;
+  }
+  .works-button {
+    display: block;
+    margin: 0 auto;
   }
 }
