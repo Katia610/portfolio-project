@@ -98,7 +98,8 @@ h3 {
   background: white;
   border: solid 2px var(--branding-color);
 }
-.hero-link:hover {
+.hero-link:hover,
+.footer-button:hover {
   color: white;
 }
 .hero-button:hover {
@@ -195,6 +196,46 @@ h3 {
 .active {
   color: var(--branding-color) !important;
 }
+.contact-box {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-box h4 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+}
+.contact-box p {
+  margin-bottom: 0px;
+}
+.footer-button {
+  margin-top: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.footer-email {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 50px;
+}
+.footer-email:hover {
+  color: var(--branding-color);
+}
+.footer-logo {
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 15px;
+  margin: 50px;
+  transition: all 100ms ease-in-out;
+}
+.footer-logo:hover {
+  color: white;
+  background: var(--branding-color);
+}
 @media (max-width: 1280px) {
   .hero h1 {
     font-size: 45px;
@@ -259,5 +300,11 @@ h3 {
   }
   .contact-title {
     font-size: 21px;
+  }
+  .footer-email {
+    font-size: 17px;
+  }
+  .footer-logo {
+    margin: 50px 35px;
   }
 }
